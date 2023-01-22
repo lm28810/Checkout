@@ -1,0 +1,31 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.Card-container-content{
+    border: 10px black solid;
+    border-radius: 30px;
+    height: 500px;
+    margin: 4em;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #8b74bd;
+    color: white;
+    margin-top: 1.5em;
+    outline: none;
+    padding: 1em;
+    width: 80%;
+}
+.Card-container-link2{
+    margin: 2em;
+    
+
+}

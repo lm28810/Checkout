@@ -6,19 +6,80 @@
     border: none;
 }
 
+.Card-container{
+    display: flex;
+    margin: auto;
+}
 .Card-container-content{
-    border: 10px black solid;
+    border: 1px grey solid;
     border-radius: 30px;
-    height: 500px;
+    width: 80vw;
     margin: 4em;
+}
+
+.image1{
+    border-radius: 20px;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    width: 100%;
+}
+
+.Price, .Plan{
+    text-align: left;
+}
+
+.Price{
+    color: grey;
+}
+
+
+
+.Card-container-text{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 1em 2em;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 480px) {
+    .Card-container-text {
+        font-size: 1rem;
+    }
 }
 a{
     text-decoration: none;
 }
 
+.Card-container-details{
+    display: flex;
+    
+  justify-content: space-evenly;  
+}
+
+.Plan, .Price{
+    line-height: .2;
+}
+
+.change{
+    color: black;
+    text-decoration: underline;
+}
+
+.change:hover {
+    color: red;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    .Plan, .Price, .change {
+        font-size: .8rem;
+    }
+}
+
 button{
     background-color: #8b74bd;
     color: white;
+    font-size: 1.4rem;
     margin-top: 1.5em;
     outline: none;
     padding: 1em;
@@ -28,4 +89,8 @@ button{
     margin: 2em;
     
 
+}
+
+.Card-container-link2:hover{
+font-weight: bolder;
 }
